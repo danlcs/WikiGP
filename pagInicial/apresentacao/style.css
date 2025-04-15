@@ -1,0 +1,95 @@
+body {
+    background-color: lightskyblue;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.cab {
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logoGP{
+    margin-bottom: 15px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu img {
+    width: 30px;
+}
+
+.side-menu {
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 10px;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.side-menu.open {
+    left: 0;
+}
+
+.titulo {
+    text-align: center;
+    background-color: lightsalmon;
+    border-bottom: 2px solid #0e4194;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.txt {
+    background-color: lightsalmon;
+    border: 2px solid #0e4194;
+    border-radius: 0.5cm;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+}

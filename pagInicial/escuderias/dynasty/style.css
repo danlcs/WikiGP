@@ -1,0 +1,126 @@
+body {
+    background-color: wheat;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.cab {
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu img {
+    width: 30px;
+}
+
+.side-menu {
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 10px;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.side-menu.open {
+    left: 0;
+}
+
+.titulo {
+    color: black;
+    text-align: center;
+    background-color: goldenrod;
+    border-bottom: 2px solid yellow;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.txt {
+    color: black;
+    background-color: goldenrod;
+    border: 2px solid yellow;
+    border-radius: 0.5cm;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.inexistente {
+    color: red;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.nomes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ajusteTamanho {
+    width: 175px;
+    border: black 3px solid;
+    border-radius: 0.5cm;
+}
+
+.fotoGrupo {
+    border: black 3px solid;
+}
+
