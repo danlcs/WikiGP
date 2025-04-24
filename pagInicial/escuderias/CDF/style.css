@@ -1,5 +1,5 @@
 body {
-    background-color: wheat;
+    background-color: blue;
     margin: 0;
     min-height: 100vh;
     font-family: 'Times New Roman', serif;
@@ -9,7 +9,7 @@ body {
 }
 
 .cab {
-    background-color: goldenrod;
+    background-color: yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,8 +58,8 @@ body {
 .titulo {
     color: black;
     text-align: center;
-    background-color: goldenrod;
-    border-bottom: 2px solid yellow;
+    background-color: yellow;
+    border-bottom: 2px solid red;
     padding: 20px;
     font-size: xx-large;
 }
@@ -82,8 +82,8 @@ body {
 
 .txt {
     color: black;
-    background-color: goldenrod;
-    border: 2px solid yellow;
+    background-color: yellow;
+    border: 2px solid red;
     border-radius: 0.5cm;
     text-align: justify;
     padding: 15px;
