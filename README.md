@@ -35,6 +35,6 @@ WikiGP is a simple and accessible platform, inspired by Wikipedia, created to do
 Wanna connect or share some feedback? Feel free to reach out:
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:danielsilva123lucas@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-lucas-da-silva-21a343345/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danlcs/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5566992195799?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20GitHub%20%F0%9F%98%8A)
 [![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/danlcs__)
