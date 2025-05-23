@@ -1,0 +1,163 @@
+body{
+    background-color: lightskyblue;
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'times new roman';
+}
+
+.cab{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    text-align: right;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.side-menu {
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 8px 16px;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.side-menu.open {
+    left: 0; 
+}
+
+.imgsCab {
+    text-align: left;
+}
+
+.logoGP{
+    margin-bottom: 15px;
+}
+
+.titulo{
+    text-align: center;
+    background-color: lightsalmon;
+    border-bottom: 2px #0e4194 solid;
+    border-top: 2px lightsalmon solid; 
+    color: black;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.tituloSobreOGP{
+    text-align: center;
+}
+
+.sobreOGP{
+    background-color: lightsalmon;
+    border: 2px solid #0e4194;
+    border-radius: 0.5cm;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.txtSobreOGP{
+    font-size:x-large;
+}
+
+.botoesSobre{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5cm;
+    padding: 5px
+}
+
+.botaoBMC{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.conhecaMais{
+    background-color: lightsalmon;
+    border: 2px solid #0e4194;
+    border-radius: 0.5cm;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.botaoHistorico{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.inscricao{
+    background-color: lightsalmon;
+    border: 2px solid #0e4194;
+    border-radius: 0.5cm;
+    text-align: center;
+    padding: 7px;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.menu img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.botoesLaranja {
+    background-color: #ea5b0c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    border: #0e4194 solid 2px;
+    padding: 5px
+}
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.txt {
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
