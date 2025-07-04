@@ -17,7 +17,7 @@ WikiGP is a simple and accessible platform, inspired by Wikipedia, created to do
 
 ## 🌐 Live Preview
 
-🖥️ *Coming soon!* — Currently hosted and running locally. Plans to deploy it online are underway.
+🖥️ https://danlcs.github.io/WikiGP/
 
 ---
 
