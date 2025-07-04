@@ -5,10 +5,10 @@ function toggleMenu() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = {
-        botaoApresentacao: "/apresentacao/index.html",
-        botaoBMC: "/BMC/index.html",
-        botaoPrototipo: "/prototipo/index.html",
-        botaoEscuderias: "/escuderias/index.html",
+        botaoApresentacao: "apresentacao/index.html",
+        botaoBMC: "BMC/index.html",
+        botaoPrototipo: "prototipo/index.html",
+        botaoEscuderias: "escuderias/index.html",
         botaoHistorico: "historico/index.html",
         botaoProjetos: "projetos/index.html",
         botaoInscricao: "https://senaimt.ind.br/para-voce"
